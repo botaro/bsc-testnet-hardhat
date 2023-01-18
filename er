@@ -1,0 +1,32 @@
+/initrd/mnt/dev_save/.config/nvm/versions/node/v16.18.1/lib/node_modules/ethers/node_modules/@ethersproject/logger/lib/index.js:238
+        var error = new Error(message);
+                    ^
+
+Error: call revert exception [ See: https://links.ethers.org/v5-errors-CALL_EXCEPTION ] (method="getPool(address,address,uint24)", data="0x", errorArgs=null, errorName=null, errorSignature=null, reason=null, code=CALL_EXCEPTION, version=abi/5.7.0)
+    at Logger.makeError (/initrd/mnt/dev_save/.config/nvm/versions/node/v16.18.1/lib/node_modules/ethers/node_modules/@ethersproject/logger/lib/index.js:238:21)
+    at Logger.throwError (/initrd/mnt/dev_save/.config/nvm/versions/node/v16.18.1/lib/node_modules/ethers/node_modules/@ethersproject/logger/lib/index.js:247:20)
+    at Interface.decodeFunctionResult (/initrd/mnt/dev_save/.config/nvm/versions/node/v16.18.1/lib/node_modules/ethers/node_modules/@ethersproject/abi/lib/interface.js:388:23)
+    at Object.<anonymous> (/initrd/mnt/dev_save/.config/nvm/versions/node/v16.18.1/lib/node_modules/ethers/node_modules/@ethersproject/contracts/lib/index.js:395:56)
+    at step (/initrd/mnt/dev_save/.config/nvm/versions/node/v16.18.1/lib/node_modules/ethers/node_modules/@ethersproject/contracts/lib/index.js:48:23)
+    at Object.next (/initrd/mnt/dev_save/.config/nvm/versions/node/v16.18.1/lib/node_modules/ethers/node_modules/@ethersproject/contracts/lib/index.js:29:53)
+    at fulfilled (/initrd/mnt/dev_save/.config/nvm/versions/node/v16.18.1/lib/node_modules/ethers/node_modules/@ethersproject/contracts/lib/index.js:20:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  reason: null,
+  code: 'CALL_EXCEPTION',
+  method: 'getPool(address,address,uint24)',
+  data: '0x',
+  errorArgs: null,
+  errorName: null,
+  errorSignature: null,
+  address: '0x1F98431c8aD98523631AE4a59f267346ea31F984',
+  args: [
+    '0xaB1a4d4f1D656d2450692D237fdD6C7f9146e814',
+    '0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd',
+    3000
+  ],
+  transaction: {
+    data: '0x1698ee82000000000000000000000000ab1a4d4f1d656d2450692d237fdd6c7f9146e814000000000000000000000000ae13d989dac2f0debff460ac112a837c89baa7cd0000000000000000000000000000000000000000000000000000000000000bb8',
+    to: '0x1F98431c8aD98523631AE4a59f267346ea31F984',
+    from: '0x93b139d34Be0b79D92362F2ff460436De1CB7Ac6'
+  }
+}
