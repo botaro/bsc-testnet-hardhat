@@ -1,4 +1,4 @@
-url=https://github.com/botaro/bsc-testnet-hardhat
+url=git@github.com:botaro/bsc-testnet-hardhat.git
 
-git remote add origin $url
-git push -u origin master
+# git remote add origin $url
+git push -u origin main
